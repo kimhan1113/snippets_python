@@ -1,10 +1,20 @@
+from collections import Counter
+
+lists = [1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 6]
+
+
+print(Counter(lists))
+assert 1 == 0
 
 
 class test:
     a = 1
+
     def hoxy(self):
         num = 10
         return num
+
+
 t = test()
 
 # t라는 객체에 있는 "hoxy" 라는 인스턴스를 쓰는법 오른쪽 괄호에는 피라미터값이 있으면 넣는다
@@ -24,12 +34,12 @@ result1 = isinstance(100, int)
 class test1:
     pass
 
+
 class test2(test1):
     pass
+
 
 t2 = test2()
 
 result2 = isinstance(t2, test1)
 print(result2)
-
-
