@@ -1,9 +1,9 @@
 from collections import Counter
 
-lists = [1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 6]
+lists = ["ha", "ho", "ha", "ss"]
 
 
-print(Counter(lists))
+print(Counter(lists)["ha"])
 assert 1 == 0
 
 
